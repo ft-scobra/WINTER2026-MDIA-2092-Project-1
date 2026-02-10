@@ -1,0 +1,16 @@
+/* Main Content */
+.main-content {
+    padding: 10px 50px;
+    background-color: var(--bg-color);
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Logo */
+.logo img {
+    width: 500px;
+}

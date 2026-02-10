@@ -1,0 +1,15 @@
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.product-section {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.product-section img {
+    width: 50%;
+}

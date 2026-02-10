@@ -1,0 +1,156 @@
+/* Define Colors */
+:root {
+    --bg-color: #c0e7f1;
+    --fg-color: #8d9f9d;
+    --accent: #5c5470;
+    --highlight: #dbd8e3;
+    --text-white: #ffffff;
+    --text-black: #000000;
+}
+
+
+/* Fonts */
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 10px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* Paragraph */
+p {
+    margin: 5px;
+}
+
+body {
+    font-family: "Liberation Sans", sans-serif;
+    color: var(--text-black);
+}
+
+/* Visible Page */
+/* Header */
+.header {
+    background-color: var(--fg-color);
+
+    padding: 20px 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Main Content */
+/* Above the Fold */
+.main-content {
+
+    padding-top: 20px;
+    background-color: var(--bg-color);
+
+    /* Placeholder Height */
+    min-height: 100vh;
+
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Hero Banner */
+.hero-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.hero-banner img {
+    width: 100%;
+}
+
+/* Below the Fold */
+.below-the-fold {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+/* Artist Carousel */
+.artists-carousel {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow: scroll;
+}
+
+/* Artist Card */
+.artist-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.artist-card-image img {
+    width: 300px;
+}
+
+.artist-card-link {
+    color: var(--text-white);
+    background-color: var(--accent);
+
+    box-sizing: border-box;
+    margin: 0 10px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Footer */
+.footer {
+    background-color: var(--fg-color);
+
+    padding: 20px 30px;
+}
+
+.top-footer {
+    margin: 20px 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-footer {
+    text-align: center;
+}
+
+/* Social Media Tray */
+.social-media-tray {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    gap: 20px;
+
+    width: 150px;
+}
