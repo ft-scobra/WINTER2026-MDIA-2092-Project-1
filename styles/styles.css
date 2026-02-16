@@ -1,11 +1,11 @@
 /* Define Colors */
 :root {
-    --bg-color: #c0e7f1;
-    --fg-color: #8d9f9d;
-    --accent: #5c5470;
+    --bg-color: #ffffff;
+    --fg-color: #bad1e6;
+    --accent: #bdcede;
     --highlight: #dbd8e3;
     --text-white: #ffffff;
-    --text-black: #000000;
+    --text-black: #292727;
 }
 
 
