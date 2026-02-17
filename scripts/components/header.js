@@ -7,16 +7,16 @@ class Header extends HTMLElement {
         this.innerHTML = `
     <header class="header">
         <div class="header-logo">
-            <a href="#">
+            <a href="./home.html">
                 <img src="../images/placeholder-image.webp" alt="header logo" class="header-logo-img">
             </a>
         </div>
         <div class="header-nav">
-            <a href="./webpages/home.html" class="header-nav-link">Home</a>
+            <a href="./home.html" class="header-nav-link">Home</a>
             <a href="#" class="header-nav-link">Link</a>
             <a href="#" class="header-nav-link">Link</a>
             <a href="#" class="header-nav-link">Link</a>
-            <a href="./webpages/about.html" class="header-nav-link">About</a>
+            <a href="./about.html" class="header-nav-link">About</a>
         </div>
         <div class="header-user">
             <div class="cart">
