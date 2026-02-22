@@ -1,121 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- NOTE: This page will be cleared and will instead redirect to ./webpages/home.html -->
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Adding Fonts -->
-    <script>
-        (function (d) {
-            var config = {
-                kitId: 'iem4tmy',
-                scriptTimeout: 3000,
-                async: true
-            },
-                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
-        })(document);
-    </script>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dheereshag/coloured-icons@1.9.6/app/ci.min.css">
-    <script src="./scripts/components/header.js" defer></script>
-    <script src="./scripts/components/footer.js" defer></script>
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="2; URL=./webpages/home.html">
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="header-logo">
-            <a href="#">
-                <img src="./images/placeholder-image.webp" alt="header logo" class="header-logo-img">
-            </a>
-        </div>
-        <div class="header-nav">
-            <a href="./webpages/home.html" class="header-nav-link">Home</a>
-            <a href="#" class="header-nav-link">Link</a>
-            <a href="#" class="header-nav-link">Link</a>
-            <a href="#" class="header-nav-link">Link</a>
-            <a href="./webpages/about.html" class="header-nav-link">About</a>
-        </div>
-        <div class="header-user">
-            <div class="cart">
-                <img src="./images/icons/shopping-cart-icon.svg" alt="shopping cart button" class="icon cart-icon">
-            </div>
-            <div class="user-account">
-                <img src="./images/icons/account-icon.svg" alt="user account button" class="icon account-icon">
-            </div>
-            <div class="search">
-                <input type="text" placeholder="Search" class="search-textbox">
-                <img src="./images/icons/search-icon.svg" alt="search button" class="icon search-icon">
-            </div>
-        </div>
-    </header>
-    <!-- <header-component></header-component> -->
-    <!-- Main Content -->
-    <main class="main-content">
-
-        <!-- Above the fold -->
-        <div class="above-the-fold">
-            <div class="heading">
-                <h1>
-                    Welcome Posers
-                </h1>
-            </div>
-
-            <div class="hero-banner">
-                <img src="./images/placeholder-image.webp">
-            </div>
-        </div>
-
-        <!-- Below the fold -->
-        <div class="below-the-fold">
-            <div class="subheading">
-                <h2>
-                    SHOP THESE LOOKS
-                </h2>
-            </div>
-
-            <!-- Artist Carousel -->
-            <div class="artists-carousel">
-                <div class="artist-card">
-                    <div class="artist-card-image">
-                        <img src="./images/placeholder-image-vertical.webp" alt="">
-                    </div>
-                    <div class="artist-card-link">
-                        <a href="">Shop XXXXX's Style</a>
-                    </div>
-                </div>
-                <div class="artist-card">
-                    <div class="artist-card-image">
-                        <img src="./images/placeholder-image-vertical.webp" alt="">
-                    </div>
-                    <div class="artist-card-link">
-                        <a href="">Shop XXXXX's Style</a>
-                    </div>
-                </div>
-                <div class="artist-card">
-                    <div class="artist-card-image">
-                        <img src="./images/placeholder-image-vertical.webp" alt="">
-                    </div>
-                    <div class="artist-card-link">
-                        <a href="">Shop XXXXX's Style</a>
-                    </div>
-                </div>
-                <div class="artist-card">
-                    <div class="artist-card-image">
-                        <img src="./images/placeholder-image-vertical.webp" alt="">
-                    </div>
-                    <div class="artist-card-link">
-                        <a href="">Shop XXXXX's Style</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <!-- Footer -->
-    <footer-component></footer-component>
+    <p>If you are not redirected automatically, follow this <a href="./webpages/home.html">link to the newpage</a>.</p>
 </body>
 
 </html>
