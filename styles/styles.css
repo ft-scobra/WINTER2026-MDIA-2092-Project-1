@@ -139,7 +139,7 @@ body {
 
 /* Carousel container */
 .carousel-container {
-    max-width: 100%;
+    width: 100%;
     position: relative;
     margin: auto;
 }
@@ -149,8 +149,10 @@ body {
     display: none;
 }
 
-.mySlides img {
+.carousel-image {
     width: 100%;
+    aspect-ratio: 2.20/1;
+    object-fit: cover;
 }
 
 /* Next & previous buttons */
