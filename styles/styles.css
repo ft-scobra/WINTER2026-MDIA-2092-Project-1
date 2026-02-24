@@ -258,7 +258,9 @@ body {
     align-items: center;
 }
 
-.product-card-image img {
+.product-card-image {
+    margin: 0;
+    text-align: center;
     width: 300px;
     aspect-ratio: 1/1;
     object-fit: cover;
