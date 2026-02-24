@@ -1,0 +1,7 @@
+/* Products Grid */
+.products-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
