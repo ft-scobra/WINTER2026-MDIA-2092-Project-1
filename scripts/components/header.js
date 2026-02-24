@@ -8,7 +8,7 @@ class Header extends HTMLElement {
     <header class="header">
         <div class="header-logo">
             <a href="./home.html">
-                <img src="../images/placeholder-image.webp" alt="header logo" class="header-logo-img">
+                <img src="../images/branding/logo.webp" alt="header logo" class="header-logo-img">
             </a>
         </div>
         <div class="header-nav">
