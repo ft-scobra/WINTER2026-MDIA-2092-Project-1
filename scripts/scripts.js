@@ -19,7 +19,7 @@ function currentSlide(n) {
 // Automatic Timer
 function startTimer() {
     slideTimer = setInterval(function () {
-        // plusSlides(1);
+        plusSlides(1);
     }, 5000);
 }
 
