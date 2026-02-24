@@ -243,27 +243,28 @@ body {
     max-width: 90%;
 }
 
-/* Artist Carousel */
-.artists-carousel {
+/* product Carousel */
+.product-carousel {
     display: flex;
     flex-direction: row;
     gap: 20px;
     overflow: scroll;
 }
 
-/* Artist Card */
-.artist-card {
+/* product Card */
+.product-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
 }
 
-.artist-card-image img {
+.product-card-image img {
     width: 300px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
-.artist-card-link {
+.product-card-link {
     color: var(--text-white);
     background-color: var(--accent);
 
