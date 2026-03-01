@@ -1,9 +1,41 @@
+/* Define Colors */
+:root {
+    --bg-color: #ffffff;
+    --fg-color: #000000;
+    --accent: #e26668;
+    --highlight: #dbd8e3;
+    --text-white: #ffffff;
+    --text-black: #000000;
+}
+
+/* Buttons */
+.button {
+    background-color: var(--accent);
+    width: 40%;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.button a {
+    color: var(--text-black);
+}
+
+/* Container */
 .container {
     margin: 0 auto;
     width: 90%;
     max-width: 1200px;
 }
 
+/* Ratings */
+.fa-star,
+.fa-star-half-stroke {
+    color: orange;
+}
+
+/* Product Section */
 .product-section {
     display: flex;
     width: 100%;
@@ -12,4 +44,51 @@
 
 .product-section img {
     width: 50%;
+}
+
+
+/* === Product Page === */
+.product {
+    display: flex;
+    flex-direction: row;
+    max-width: 1280px;
+
+    justify-content: center;
+}
+
+/* Product Image */
+.product-left {
+    width: 40%;
+}
+
+.product-left img {
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+}
+
+/* Product Info */
+.product-right {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+/* Price */
+.price {
+    font-family: "pretendard", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.7rem;
+
+    margin: 10px;
+}
+
+/* Product Info Buttons */
+.add-to-cart {
+    background-color: rgb(255, 188, 65);
+}
+
+.buy-now {
+    background-color: rgb(255, 108, 55);
 }
