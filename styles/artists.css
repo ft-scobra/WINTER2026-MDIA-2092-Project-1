@@ -8,8 +8,15 @@
     --text-black: #000000;
 }
 
-/* Artists Page */
+/* Products Grid */
+.products-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+/* Artists Page */
 .hero-banner {
     display: flex;
     align-items: center;
