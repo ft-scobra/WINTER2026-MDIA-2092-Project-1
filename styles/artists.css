@@ -1,7 +1,37 @@
-/* Products Grid */
-.products-grid {
+/* Define Colors */
+:root {
+    --bg-color: #ffffff;
+    --fg-color: #000000;
+    --accent: #e26668;
+    --highlight: #dbd8e3;
+    --text-white: #ffffff;
+    --text-black: #000000;
+}
+
+/* Artists Page */
+
+.hero-banner {
     display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.artists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    width: 100%;
+}
+
+.carousel-image {
+    width: 100%;
+}
+
+.artist-page-prompt {
+    color: var(--accent);
+
+    text-align: center;
 }
