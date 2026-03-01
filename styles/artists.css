@@ -11,6 +11,8 @@
 /* Products Grid */
 .products-grid {
     display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;

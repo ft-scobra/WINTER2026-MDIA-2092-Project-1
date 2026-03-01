@@ -263,18 +263,26 @@ body {
     text-align: center;
     width: 300px;
     aspect-ratio: 1/1;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .product-card-link {
-    color: var(--text-white);
     background-color: var(--accent);
-
     box-sizing: border-box;
-    margin: 0 10px;
     padding: 20px;
     width: 100%;
     text-align: center;
+    transition: ease-in-out 200ms;
+
+}
+
+.product-card-link:hover {
+    filter: brightness(1.2);
+    transition: ease-in-out 200ms;
+}
+
+.product-card-link a {
+    color: var(--text-white);
 }
 
 
