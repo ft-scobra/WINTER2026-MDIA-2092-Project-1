@@ -150,7 +150,7 @@ body {
 
 .carousel-image {
     width: 100%;
-    aspect-ratio: 253/142;
+    aspect-ratio: 16/7;
     object-fit: cover;
 }
 
