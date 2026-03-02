@@ -14,8 +14,7 @@ class Header extends HTMLElement {
         <div class="header-nav">
             <a href="./home.html" class="header-nav-link">Home</a>
             <a href="./artists.html" class="header-nav-link">Artists</a>
-            <a href="#" class="header-nav-link">Categories</a>
-            <a href="#" class="header-nav-link">Best Sellers</a>
+            <a href="#" class="header-nav-link">Browse</a>
             <a href="./about.html" class="header-nav-link">About</a>
         </div>
         <div class="header-user">
